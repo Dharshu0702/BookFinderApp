@@ -1,16 +1,59 @@
-# 📚 Book Finder App
+#  Book Finder App
 
 A simple React-based web application that allows users to search for books using the **Open Library API**.  
 Built as part of a **Take-Home Challenge** to demonstrate skills in interpreting user needs, designing effective UI, and integrating APIs.
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 🔍 **Search Books by Title** using Open Library’s public API.  
-- 🖼️ **Displays Book Covers, Titles, Authors, and Publication Years.**  
-- ⚡ **Responsive & Fast** – built using **React + Vite**.  
-- 💬 **Error Handling** – shows messages for empty results or failed fetch.  
-- 🎨 **Styled with Tailwind CSS** for clean and modern UI.
+-  **Search Books by Title** using Open Library’s public API.  
+-  **Displays Book Covers, Titles, Authors, and Publication Years.**  
+-  **Responsive & Fast** – built using **React + Vite**.  
+-  **Error Handling** – shows messages for empty results or failed fetch.  
+-  **Styled with Tailwind CSS** for clean and modern UI.
 
 ---
+
+##  Tech Stack
+
+| Category | Tools Used |
+|-----------|-------------|
+| Framework | [React](https://reactjs.org/) |
+| Bundler | [Vite](https://vitejs.dev/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| Data Source | [Open Library API](https://www.googleapis.com/books/v1/volumes?q=${query}`) |
+| Hosting | [CodeSandbox](https://codesandbox.io/) / [Vercel](https://vercel.com/) |
+
+---
+
+Project Structure
+ book-finder-app
+├── 📁 node_modules/
+├── 📁 public/
+│   └── vite.svg
+│
+├── 📁 src/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.jsx
+│   ├── styles.css
+│   └── vite-env.d.ts
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+
+Future Enhancements
+
+ ─ Add advanced filters (e.g., by author, year, or genre).
+
+─ Allow users to save favorite books locally.
+
+─ Add dark/light theme toggle.
+
+─ Display related book suggestions for each search.
