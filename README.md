@@ -47,15 +47,24 @@ Project Structure
 │   ├── index.css
 
 │   ├── index.jsx
+
 │   ├── styles.css
+
 │   └── vite-env.d.ts
+
 │
 ├── .gitignore
+
 ├── index.html
+
 ├── package.json
+
 ├── postcss.config.js
+
 ├── tailwind.config.js
+
 └── vite.config.js
+
 
 <img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/3567e90b-5351-4504-b784-cb561cad98be" />
 
