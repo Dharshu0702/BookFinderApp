@@ -27,7 +27,7 @@ Built as part of a **Take-Home Challenge** to demonstrate skills in interpreting
 
 ---
 
-Project Structure
+##   Project Structure
  book-finder-app
  
 ├── 📁 node_modules/
@@ -65,12 +65,15 @@ Project Structure
 
 └── vite.config.js
 
+##   OUTPUT
 
 <img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/3567e90b-5351-4504-b784-cb561cad98be" />
 
 <img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/9830c860-5c5f-48a4-9e60-e3085e58c347" />
 
-Future Enhancements
+
+
+##   Future Enhancements
 
  ─ Add advanced filters (e.g., by author, year, or genre).
 
